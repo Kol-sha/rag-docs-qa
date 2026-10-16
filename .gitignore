@@ -1,0 +1,17 @@
+# Секреты
+.env
+*.env
+
+# Модели и индексы (большие файлы)
+faiss_index.bin
+chunks.pkl
+models/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
